@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>html forms</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <nav>
+            <!-- seeing if you'll notice-->
+            <button>Amog Us</button><button>Register</button>
+        </nav>
+        <div id="formbox">
+            <br>
+            <h2>Sign Up</h2>
+            <br>
+            <form>
+                <input type="email" name="email"  placeholder="Email">
+                <br>
+                <input type="text" name="username"  placeholder="Username">
+                <br>
+                <input type="password" name="pwd"  placeholder="Password">
+                <br>
+                <input type="password" name="pwd_confirm"  placeholder="Confirm Password">
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+            <div id="social">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Amazon_icon.png" alt="amazon">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQwAAAC8CAMAAAC672BgAAAAh1BMVEX+/v7t7e3///8AAADs7Oz19fXv7+/w8PD29vb5+fn7+/vNzc1xcXFpaWm/v7+kpKSZmZnd3d09PT04ODjHx8dSUlKrq6tMTEzV1dWlpaXk5OSNjY25ubnDw8OWlpaenp6FhYVERER4eHgsLCwNDQ0hISFcXFx2dnYRERGAgIAuLi4cHBxjY2NdWv7pAAAPd0lEQVR4nO1d63rbqhJFVAgkJ07duNmJncRuLu1Oz37/5zsWM6CRAN1tK47ml/jsJWAJhmEYgHF2EC6iXCQkEp1QOsHi/DnO8gTPIOGBSJ0QkPBA9Ku40v9KQpAoLUF4PSRyIZBlCr/UV4wzF5IwKKaIq5hYlMjQzymtWQkiXUiqnzMXkrgQHoQoB1IiI1YUAqUESJCMWIUqFn16MniVDD6TMZMxOhlci4hzkZBIdELoZ6afD3omlxQSFJK4EA7/SvVzBgnmQmQriNLPEYVIClEUkhFI7IFEBOKrGBNaVKoFEvCsaEK4iSNAPHjlJnpAWpaSRbFuoJ5BTf9gGmhM2jRAlDuoASSiENNACeTwTQqIbqCxGa1diOgCKZUyrlYsxoqJYMVYNIXeSmt2Ps3FZjJmMurJ6KQziprlkERK1NaZ1AIJpZ9xtIAfMppoB0lpAgYYRiFpAanqDE/FCjL8OgPerLJcUiyATmDJ9HMmaIJCsjSLF0/LhZb1UgsknvTzEyTghzVNNEGeXMjahawN5F4YMhUtZUorljVUbJCdEUn5tH/9NhF5/7MYamd4ul7b3irl3eu5GSjL66Mmo6fmGmKOi8XtuSvvyo/VWcjIbs5dcb/coafjpGQ8n7vWIXkWvckIKlCPnsmIappou8jlWfRVoEkxHLOWPrqc6mWR99v1/vlGy+67Fk8Cnnc0MS5ke/VWlGjB7Zf32BnhilGjq8kCLYyuZGOz/rk+TPqQeSbzZ2HMoTyhsOXphDG6RAUiZBdIKZEVWd7/tp8nr87JzHHxYfJdKmm73pnNcc4fTan2JyQjWZlcV5wU8+xzE3VvypXwk5EhtpjnPZ/WRE08GR3Kw57EOjK6O9wi+Q5ZbkdzuAXHtI7OR4X997WX85H1cLhlppdE6hg+ukFuPWn6r+qRJTMNFL4JNFBki4HDDb4J0w43+CaoqK6FF2K/CdODGn6TIhc7ebYQFoYoFyIpRFFI3nKuoGx30gOJCMRTsV4WKN+aDKe3VGA+1F6cyBznL5Dheopk4IBydTIysCneJxMkY2O6cK+5SVFMj5O+vApfIWOVBJz0UDPXEA473MK2c4mMGucjlpJHFTJKFfOQQSoWsSa3nsd7ZskQdW7BoMNNjglRFQiLkYy0S8UwFxYcjsN2hrjGkZWfzs5IDjUSvrmJkBFd5DTG8VUvOyPq3lsLMk6zVJBXYPW4vf7x7zeP7GVCNBcho7Pm6mWOn5aMgyw+3n00fDPq4YuQEWV8s38LE4Gj2pcgQ4r17zAJRtZyLDIGKNCkCilpw+EKNFHrn81UHMhIwgq05K+kFfMqUBCR5CIhIXVCYcvRCfyMkLBDq6xABIXgN4EE/KDcXIKQQwdRV22o0I4EW0puhlZFK4a5JKRimadijDadBgvUY3TVWaDUNvQ10IDRhZCIL91qv9/+Osg/Wg4Pr5aMwgLtanSRig0yxxvI6NBb3Q4uk5cSDW8vjysG0250ix4eti3I6KC5pkqGXNHVurePFXRwqsYj63C7cDLEggynt3eH+nMLOSYZjYawR/VbMo4U7SfWRE3cyQMHngHq8LAvyLClLMjoPKZFJtoPpCGBzwyH1k3aGtIpl+y+4GKrsiCEYctYpMUvCqfwV7xPxXo4hInR1XaiFlyx9NgZIrZUvC5YHpHjh9jlXmtnyIubqCXyr+HidyTDEFaQMZoFOjkyhDXA92lSu25y+WQIu7z/rGrHtCOS0cXh1pKMJtuPONwKMoqVy62IHDLKkEJnFM5Hhwy3Yk3Rfgk6yRKdQIdbAq6wwnuWgPeMpUhGzBoh6HDDXJSbSwoJC1H47m8vqQtJKSTLzJLFWsjCk2fJ8EJqK9Yt2s8Eq7SyMzzzxRZ2hmkYP3AYq9tVMLad0Sva73gWKOemYdzLgOZKTJzsxc9NzAT8oDB8miuPX1k97rYfLwe5uvrz67LJwG/9liQuGYc2/3jlcwFeKhn/gzfvhDOmcb7Ze4gYl4ygAq2J9juWArWxDnHkTArkh5cIQ8Y4ClSiww1GMHCF6WHG+Oh0wnjP4JfS0OpAEg/EeBKdXFIKydBw+MMrEKbuglTkylbaXMjQWlTM5OKpmKSlbBvtdwSjS/9QMrqy/+DFT7zcWW3UhVd+Fusm7Y0ub8UmZY5nuGQmymRwXrde8Du+0BU1eO87Z2Uy/iN1//fP3XKxOoh+fbLZiJIavxwysCL/lcmgkdn73BkqdUdHC5XmMpyMkA/kDKvwtiKlAarw9WxTB1LdajzMuaO6C0N1pt1+I0q6wIqUCmWV598Vb5HhxveOljIlh3CCZFwL0j4jrN2327TV9u9BDmHaj85sgUpLBtFc0lgYMYdxsCGm61LMcS8ZJmb/O28X4HbZZOBC/ObEZMQNZLRcePasIrdbeE68ZOA8XVY38bYko4MdjGSEQxLMRAIITFqFJJhZAYHgaTjBkAT4wZChCEThomvC6uILbC61IQlNFRspWMVjNPSwM8zQSgYoxX8UQ5e7U67Rzug0d56UBWrJoBBLRquDAS7HHJ/JmMmYKBkDFKgzUfv0CrRLvHk1kL4IcZdjRMULM7SmBGKG1jzkv6mUWd9AeizllLZY+I0uJONYRhep2CcwxykZVHO1JKOD5prJmMkIkcFZoWF7OHc8kHGdOwUZbc72Y7XOnYbIsoihJ41GwDXFyRkyNqo1xJNwf7Buv4z8kiEZcdrqxanZsFeqWMuCTcoh3M7OOKJDOAp18K9ogZ6XDP7lyZCgebCdk8R9DRm5gvJAmJDjk8EdzLEWnjnf/cz3i/wEgc0j8PyrhowA5J/fj6Kwg4eSof1dUXkPkE4o3HYEHzNPRIKVyMgbdxgiNARDsyAX7XCrXVEnZECWloywPJPdi0lBRuRWjBWlpBBTMXbSYJV8tEnW4WqheO2MGpGmlDkkMe/oMaYxjx46qgUqH1qQQTqraGwZnzimqwUZzyUyrhv/v7lkMjYJIcPY6GG55Z92otZIxs+NLI1pYt2gNXbjkRFUoEdahTdkLPUExGxFLB3qVtG5iTUqYPeiiRCOTEMaaxU+9h2b2+Sjs4H0mfek3frDLjiuqt+xBohocj7i6Tp/MwoRdltWD+djwxYLr4+uvC0LWhu3EL/RFZsGaupwx4nDreEQdo+P7tA+MertWVDn47AtFlGogx/JHC/IKKmhzporSbGXlE/++Vxzk7HIkPieWxHNZKiil4wf7ceY9+w0ewsDKOUqGcThZiG2ZgRiLHyPzqiHQISwe9xaYkK97vP/FSe8uc4dp2Lhc+T6XOmRmU2+WWtIkQszo0k26Oy/FF/zK61Aqpt8u+RyNjvjUbSCBJ2P2Et2FPLpov0sGYpAOp/gxs3pjhvqiPm05vhAMlDz/GAzGcxaXJdBxhJMbM+VHQ4Z9pYPZSHCjCVZExluxVpM1CJtCKM2BAzoGcCgnqmSYSDGqgVtSCCmZjYXQ8bHwy6Xmzst+nn3kD9uOIWowzxtvdvBv24sBCNlf8iU5uJRoF0qFg2N9guvCIX0uD0POyRbU3IcbWp8pjd9glVqjqaKOvbWsSzQGtEHytvOWrc7bfPJ101akLHnFFJzbtkvfvlkeNdNfHLz6ckQ4cp1JUOOTcYABdpzFb7Rw+tdhffImo+9Cq/nSxlcGSFoQsFMCryTMEGDWyZstN/GD8ndcAaSIgTwCn9YrA+yfMxludYCz7gz7zorsrTxGcsqZClTTykzE+2XdakYFEycJdoPPpBjdAlceMZFJPAKmBW1/OPh1WAISUzPa3+gclxA5mg/ApmEOT6T8VnIOJHO4EUubSOEyzrDjRAmCmAsndFd6TaNJhTiG02EJ0sNUYYM32gSZ61KOWw0Ob2dMUf71ffWLxzgNpMxk/HZyBigQImna5xD2E+zLavG02XeGUXNrsLMZ2fgO4FgLR6IKUZUzE1cSNXO0JDyrgICwSZNcxnsA/W0tmlboD22Zc3m+Dw3mckYcaJGlPIUz9zpti1rnEPYabRCMIxhjPiMNHzRYmaHVvIvu8WiZbBFr/gMTDRF7vgCXBoid2y0H3wTaKD4TRgLXOeo/1U2unx2BoVwJ5fBkTtRqIN/RQt0JmMmo88h7ONHCDO/J9FDRuyS4UJKuYxzCPsJY8cz762HELptySCx48VoUhMI3iN23Hdp5GxnkIoxT9f7uhboTMZMxkxG/4na6Q9h76NAHTU9aF/ryXc8lyFw62HksTMqO543VQijuZjGNnDHM7S2aRzCPhUL1MV8YXN8JmMmI7Aty1H9X3EVfhKnMeHeqqbTmJQDCZ7GdOU5jSkAIacxXdY5XZ9sW9akLdCZjJmMs0b7kVwmfB5oFx/dOU6KTTueFGvO9ut0UiwWrFewCpJxX7UzphCsgoc9fZzsEHa83e1xghaouQFkeypz3GR4NUEyzB1vj6ciIzG3c6d8amTYwxM2pyIjku+Q435yZCjc8PrKTxXtF0u8PLN86+EEFKh8woJ97+V8BEa63W9iB/MDGymFeO43KeGPfb+JvQc4v3qFVqzt/Sak6bS++YZxe1voI4RJuObkaDfftDa6pLK7RD9EH+djL3M8R9tLZH/f6z6l9yh4TiArJTLYyQAJ3L1H/lXZo1YmQ1QhsF+CFfi13Q78lh+Id6K5CSt0HfTx7c13LbuHm1wgcXNTTTzsIKH/9UAhmNjXkHFAIX7n4m+e9/Q8xKXspcb7ksH47tvRxEtGB9EHNPUigyrlts4dLc9HoAGk6+GoFcmPdPMPg43OHdVXWN3xBYOkdG8i60rGw4Aq9XAIG8iq+RDXXrIt2Rl1F9e6crsQ/Z2PvSxQ7HqcP74eg4wVp5qr+VSFQl7vpOzvYupnjhs9dKBj8fI+Nhd3ZTXeWjm9f6yltKU8ORmHZy7EZvG0XGhZL7VA4kk/P0ECfljTRAiyUZUxjUdl/NrFPy3uVymHoWOEluGai+GFZ0JGDkmkTIxRBZ4wNKq0jwm7JniicLTKnw2EJjQkcQZ4A0ELi1FIWuTSyfnov/27x73wZlYQgLS9F57e2E4hMgjxXPLugZRK2e1e+KCdUROs4irl9oew1ywidZw7u5Chc2dGm04HC9T1MQ3prZ1PcAt6x4d4VXqb4zMZMxlfiYygAvVM1IYq0IZV+JEUaP8oEQikT3D9CUZwXMtKAstfCFEDIbjiRvGCrri1hCQORDRAgqVsOoS9jdEVaqBNDjedZc0h7J7O2gChpTSdtZPRFfXurRSC3tu+vbXHUdtH0FyMJR4CdUKf5BomIypB8JtFtWREwdNu4npIuWVkQUiplB4IfuVgxf4PHNWjPQZOSMMAAAAASUVORK5CYII=" alt="bookface">
+                <img src="https://i.pinimg.com/originals/48/e0/73/48e07378e01dd719c060c1f2f2b5cb00.png" alt="github">
+                <img src="https://www.clipartmax.com/png/middle/199-1998466_slack-icon-slack-logo.png" alt="slack">
+                <img src="https://toppng.com/uploads/preview/instagram-icon-11609365124lyquzat0xh.png" alt="insta">
+            </div>
+        </div>
+    </body>
+</html>
